@@ -10,7 +10,7 @@ it will have the following features
 5. get mentored
 6. see progress on goals
 7. start work on task 
-
+8 and many more
 the purpose of this app is to help you achieve your goals
 
 many of the philosophies in this app come from various people like Brian Tracy, Owen Cook etc
