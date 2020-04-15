@@ -1,27 +1,29 @@
 package com.lakshaysethi.goalsapp.importantObjects;
 
+import java.util.ArrayList;
+
 public class Goal {
     private String name;
     private String description;
     private String photoUrl;
-    private Plan plan;
+    private ArrayList<Plan> plans;
 
     public Goal(String name) {
         this.name = name;
         this.description = "";
-        this.plan = new Plan();
+        this.plans = new ArrayList<Plan>();
     }
     public Goal(String name, String description) {
         this.name = name;
         this.description = description;
-        this.plan = new Plan();
+        this.plans = new ArrayList<Plan>();
     }
 
     public Goal(String name, String description, String photoUrl) {
         this.name = name;
         this.description = description;
         this.photoUrl = photoUrl;
-        this.plan = new Plan();
+        this.plans = new ArrayList<Plan>();
     }
 
     public String getName() {
@@ -48,12 +50,12 @@ public class Goal {
         this.photoUrl = photoUrl;
     }
 
-    public Plan getPlan() {
-        return plan;
+    public ArrayList<Plan> getPlan() {
+        return plans;
     }
 
-    public void setPlan(Plan plan) {
-        this.plan = plan;
+    public void setPlan(ArrayList<Plan>plan) {
+        this.plans = plan;
     }
 
 }
