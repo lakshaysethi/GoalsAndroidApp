@@ -60,4 +60,20 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
+    <EditText
+        android:id="@+id/goalInput"
+        android:layout_width="102dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="8dp"
+        android:ems="10"
+        android:hint="QuickAdd"
+
+        app:layout_constraintBottom_toTopOf="@+id/newGoalBtn"
+        app:layout_constraintStart_toStartOf="parent"
+
+        android:inputType="textMultiLine"
+        />
+
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
