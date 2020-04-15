@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-// find view by id
+        // find view by id
         newGoalBtn = (Button) findViewById(R.id.newGoalBtn);
         mentorsBtn = (Button) findViewById(R.id.mentorsbtn);
         //button3 = (Button) findViewById(R.id.mentorsbtn);
